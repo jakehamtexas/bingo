@@ -2,8 +2,13 @@
 - <https://letsplaybingo.io/generator>
 
 ## Downloads
+
 1. Get the bingo cards in a big PDF using [this generator](https://letsplaybingo.io/generator). Save it to `pdfs/${batch}.pdf`
 2. Get the background images from google drive, save it to `templates/${batch}.pdf` and `template/test.pdf`
+
+## Template
+
+All source files must be `.pdf` or `.png`. If the file to use is a `.jpg`, try the `./convert-to-png.sh` script.
 
 ## Vars
 
